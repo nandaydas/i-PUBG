@@ -1,8 +1,24 @@
+/****** Utility Classes Start ******/
+.h-primary{
+    font-size: 1.8rem;
+}
+.h-secondary{
+    font-size: 14px;
+}
+/****** Utility Classes End ******/
+
+/****** Navbar Start ******/
 #navbar .container{
     flex-direction: column;
 }
 #navbar .logo{
     width: 100%;
+}
+#navbar .logo h1{
+    font-size: 1.8rem;
+}
+.icon-image{
+    width: 45px;
 }
 .menu-items{
     width: 100%;
@@ -16,6 +32,8 @@
 .burger{
     display: block;
 }
+/****** Navbar End ******/
+
 /****** Home Section Start******/
 #Home .container{
     flex-direction: column-reverse;
@@ -23,8 +41,28 @@
 .left{
     width: 100%;
 }
+.right{
+    width: 100%;
+    justify-content: center;
+}
+#Home img{
+    width: 200px;
+}
 .buttons{
     display: flex;
+}
+#home-title{
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#home-subtitle{
+    margin: 0px 0px 24px;
+}
+#home-btn{
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 0px 8px 24px 0px;
 }
 /****** Home Section End******/
 
