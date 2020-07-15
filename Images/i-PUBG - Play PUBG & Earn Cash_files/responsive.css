@@ -1,0 +1,64 @@
+
+#navbar{
+    height: 60px;
+}
+#navbar .container{
+    flex-direction: column;
+}
+#navbar .logo{
+    width: 100%;
+}
+.menu-items{
+    width: 100%;
+}
+#navbar ul{
+    flex-direction: column;
+}
+#navbar ul li{
+    border-top: 1.5px solid gray;
+}
+.burger{
+    display: block;
+}
+/****** Home Section Start******/
+#Home .container{
+    flex-direction: column-reverse;
+}
+/****** Home Section End******/
+
+/****** Features Section Start******/
+#Features .all-features{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Features div div .lf{
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+}
+.lf .icon{
+    width: 65px;
+    margin: 10px 10px;
+}
+#F-Middle{
+    display: none;
+}
+#Features div div .rf{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.rf .icon{
+    width: 65px;
+    margin: 10px 10px;
+}
+/****** Features Section End******/
+
+/****** Classes for Burger Menu ******/
+.hide-menu{
+    display: none;
+}
+.menu-height{
+    height: 450px;
+}
