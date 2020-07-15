@@ -84,13 +84,16 @@ section{
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 18px;
+    top: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    border-radius: 5px;
+    padding: 5px 8px;
 }
 .line{
     width: 32px;
     background-color: #101E3D;
     border-radius: 3px;
-    height: 4px;
+    height: 3px;
     margin: 5px 3px;
 }
 /****** Home Section ******/
@@ -111,6 +114,7 @@ section{
     text-align: left;
 }
 .right{
+    display: flex;
     width: 30%;
 }
 #home-title{
