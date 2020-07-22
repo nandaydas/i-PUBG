@@ -29,6 +29,9 @@
 #navbar ul li{
     border-top: 1.5px solid gray;
 }
+#navbar ul li a {
+    line-height: 45px;
+}
 .burger{
     display: block;
 }
